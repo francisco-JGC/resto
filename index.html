@@ -1,0 +1,397 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- BOXICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Resto</title>
+</head>
+
+<body class="hidden">
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Francisco</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home-alt nav__icon'></i>
+                            <span class="nav__name">Inicio</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav__item">
+                        <a href="#menu" class="nav__link">
+                            <i class='bx bx-food-menu nav__icon'></i>
+                            <span class="nav__name">Menu</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#employees" class="nav__link">
+                            <i class='bx bx-user-pin nav__icon'></i>
+                            <span class="nav__name">Empleados</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-info-circle nav__icon'></i>
+                            <span class="nav__name">Acerca de</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#followus" class="nav__link">
+                            <i class='bx bx-message-square-detail nav__icon'></i>
+                            <span class="nav__name">Siguenos</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <img src="img/img.JPG" alt="" class="nav__img">
+        </nav>
+    </header>
+
+
+    <main>
+        <img src="img/fondomain.jpg" class="fondo" alt="">
+
+        <section class="container section section__height" id="home" data-aos="fade-down-right">
+            <div class="section__home">
+                <div class="slider">
+                    <figure>
+                        <img src="img/menu1.jpg" alt="">
+                        <img src="img/menu2.jpg" alt="">
+                        <img src="img/menu3.jpg" alt="">
+                        <img src="img/menu4.jpg" alt="">
+                        <img src="img/menu5.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="home__data">
+                    <div class="home__text">
+                        <p>¡No te quedes con las ganas de ver estos deliciosos platillos! 😍</p>
+                        <br>
+                        <p>te ofrecemos una gran variedad de comida rica y sana, para que puedas
+                            disfrutar en familia y amigos. 😋
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section section__height" id="menu">
+            <span class="span">
+                <h2 class="section__tittle">Menu</h2>
+            </span>
+            <div class="menu__galery">
+
+                <a href="#image1" data-aos="zoom-in">
+                    <img src="img/uno.jpg" alt="">
+                </a>
+                <a href="#image2" data-aos="zoom-in">
+                    <img src="img/dos.jpg" alt="">
+                </a>
+                <a href="#image3" data-aos="zoom-in">
+                    <img src="img/tres.jpg" alt="">
+                </a>
+                <a href="#image4" data-aos="zoom-in">
+                    <img src="img/cuatro.jpg" alt="">
+                </a>
+                <a href="#image5" data-aos="zoom-in">
+                    <img src="img/cinco.jpg" alt="">
+                </a>
+                <a href="#image6" data-aos="zoom-in">
+                    <img src="img/seis.jpg" alt="">
+                </a>
+
+            </div>
+
+            <article class="light-box" id="image1">
+                <a href="#image1" class="next"><i class='bx bx-left-arrow-alt'></i></i></a>
+                <div class="menu__data">
+                    <div class="img">
+                        <img src="img/uno.jpg" alt="">
+                    </div>
+                    <div class="menu__text">
+                        <h2>¡Salteado de fideos con chirlas y langostinos!</h2>
+                        <br>
+                        <p>Si quieres una cena deliciosa y completa, pero ligera al mismo tiempo,
+                            este es tu platillo. Los fideos salteados con chirlas y langostinos no
+                            resultan nada pesados gracias al bajo contenido calórico del marisco
+                            y al potente efecto quemagrasa de estos dos ingredientes.</p>
+                        <br>
+                        <br>
+                        <a href="#image1">Ordenar <i class='bx bx-cart'></i></a>
+                    </div>
+                </div>
+                <a href="#image2" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#menu" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image2">
+                <a href="#image1" class="next"><i class='bx bx-left-arrow-alt'></i></i></a>
+                <div class="menu__data">
+                    <div class="img">
+                        <img src="img/dos.jpg" alt="">
+                    </div>
+                    <div class="menu__text">
+                        <h2>¡Brochetas de pavo y verduras!</h2>
+                        <br>
+                        <p>En unos palos de brocheta, alterna tiras de pimiento, rodajas de calabacín y dados de pavo, y
+                            ásalas en el horno o una parrilla. Si quieres que sea más nutritivo, puedes añadir como
+                            acompañamiento un puñadito de arroz o quinoa.</p>
+                        <br>
+                        <br>
+                        <a href="#image2">Ordenar <i class='bx bx-cart'></i></a>
+                    </div>
+                </div>
+                <a href="#image3" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#menu" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image3">
+                <a href="#image2" class="next"><i class='bx bx-left-arrow-alt'></i></i></a>
+                <div class="menu__data">
+                    <div class="img">
+                        <img src="img/tres.jpg" alt="">
+                    </div>
+                    <div class="menu__text">
+                        <h2>¡Crema de zanahoria!</h2>
+                        <br>
+                        <p>Las cremas de verduras son una de las estrellas del recetario. Se toman calientes y frías,
+                            puedes prepararlas con antelación y te ayudan a cumplir la máxima de cinco raciones de fruta
+                            y verdura al día.</p>
+                        <br>
+                        <br>
+                        <a href="#image3">Ordenar <i class='bx bx-cart'></i></a>
+                    </div>
+                </div>
+                <a href="#image4" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#menu" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image4">
+                <a href="#image3" class="next"><i class='bx bx-left-arrow-alt'></i></i></a>
+                <div class="menu__data">
+                    <div class="img">
+                        <img src="img/cuatro.jpg" alt="">
+                    </div>
+                    <div class="menu__text">
+                        <h2>¡Tortilla de verduras!</h2>
+                        <br>
+                        <p>Sofríe las verduritas que tengas a mano en el frigo, escúrrelas para eliminar el exceso de
+                            líquido, mézclalas con huevo batido y cuaja en una sartén antiadherente como lo haces con la
+                            tortilla de patatas.</p>
+                        <br>
+                        <br>
+                        <a href="#image4">Ordenar <i class='bx bx-cart'></i></a>
+                    </div>
+                </div>
+                <a href="#image5" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#menu" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image5">
+                <a href="#image4" class="next"><i class='bx bx-left-arrow-alt'></i></i></a>
+                <div class="menu__data">
+                    <div class="img">
+                        <img src="img/cinco.jpg" alt="">
+                    </div>
+                    <div class="menu__text">
+                        <h2>¡Salteado de champiñones con gula!</h2>
+                        <br>
+                        <p>En una sartén con un hilo de aceite de oliva, saltea unos ajos junto con unos champiñones y,
+                            cuando ya estén, añade unas gulas y saltéalo todo junto un par de minutos más.</p>
+                        <br>
+                        <br>
+                        <a href="#image5">Ordenar <i class='bx bx-cart'></i></a>
+                    </div>
+                </div>
+                <a href="#image6" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#menu" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image6">
+                <a href="#image5" class="next"><i class='bx bx-left-arrow-alt'></i></i></a>
+                <div class="menu__data">
+                    <div class="img">
+                        <img src="img/seis.jpg" alt="">
+                    </div>
+                    <div class="menu__text">
+                        <h2>¡Crema de guisantes con huevo poché!</h2>
+                        <br>
+                        <p>Necesitas un cuarto de puerro, una patata pequeña, tres puñados de guisantes congelados y un
+                            huevo. Rehoga el puerro y la patata en una cazuelita durante unos 5 minutos. Incorpora los
+                            guisantes, añade agua hasta que queden cubiertos, cuece 15 minutos más y tritura.</p>
+                        <br>
+                        <br>
+                        <a href="#image6">Ordenar <i class='bx bx-cart'></i></a>
+                    </div>
+                </div>
+                <a href="#image6" class="next"><i class='bx bx-right-arrow-alt'></i></a>
+                <a href="#menu" class="close">X</a>
+            </article>
+        </section>
+
+        <section class="container section section__height" id="employees" data-aos="fade-down-right">
+            <span class="span">
+                <h2 class="section__tittle">Empleados</h2>
+            </span>
+
+            <div class="empleados">
+                <div class="sergio data__empleado" data-aos="fade-down-right">
+                    <div class="img">
+                        <img src="img/sergio.jpg" alt="">
+                    </div>
+                    <div class="empleado__info">
+                        <h3>Sergio Abdiel</h3>
+                        <ul>
+                            <li>Guapo</li>
+                            <li>El terror de las mujers casadas</li>
+                            <li>Es otaku, pero se baña</li>
+                            <li>Esta pompiado y eso que no va al gym</li>
+                            <li>Inteligente</li>
+                            <li>Del clan uchiha</li>
+                            <li>Ya dije que es guapo?</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="chico data__empleado" data-aos="fade-down-right">
+                    <div class="img">
+                        <img src="img/chico.jpg" alt="">
+                    </div>
+                    <div class="empleado__info">
+                        <h3>Francisco Garcia</h3>
+                        <ul>
+                            <li>Chelote</li>
+                            <li>Inteligente</li>
+                            <li>No le gusta bañarse</li>
+                            <li>Juega Gear</li>
+                            <li>Tambien es otaku pero lo niega xd</li>
+                            <li>Guapo</li>
+                            <li>Ta pompiado</li>
+                            <li>Es alto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container section section__height" id="about" data-aos="fade-down-right">
+            <!-- <h2 class="section__tittle">Acerca de</h2> -->
+            <div class="section__about">
+                <span class="span">
+                    <h2 class="section__tittle">Acerca de</h2>
+                </span>
+
+                <div class="gallery-container">
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <p>oye tu, no te gustaria seguir comiendo de los mejores platillos, y a la ves
+                            cuidar tu salud. nosotros te ofrecemos lo mejor para que puedas comer lo mejor que hay.
+                        </p>
+                        <br>
+                        <p>ofrecemos una gran variedad de comida rica y saludable.</p>
+                        <!-- <p></p> -->
+                    </div>
+                    <div class="gallery__item">
+                        <img src="img/galery1.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item">
+                        <img src="img/galery2.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <p>hay muchos lugares y paginas que te ofrecen comida, pero niguna te ofrece
+                            lo saludable de ellas, con nosotros veras una gran diferencia en tu vida
+                            y en nuestro sabor.
+                        </p>
+                        <br>
+                        <p>contamos con los ingredientes mas frescos para preparar nuestros platillos.</p>
+                        <p></p>
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <img src="img/galery4.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <img src="img/galery5.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item">
+                        <p>manteniendo los alimentos en sus paquetes originales siempre que sea posible,
+                            si el embalaje no es práctico se deben mantener los alimentos en recipientes herméticos
+                            para evitar la entrada de insectos.</p>
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <img src="img/galery6.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <img src="img/galery7.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <p>contamos con los mejores productor de la distribuidora dos robles, que nos brinda
+                            un buen servicio seguro,rapido y facil.</p>
+                        <p>almacenamos los alimentos no perecederos en un lugar fresco, seco, iluminado, ventilado
+                            y sin luz solar</p>
+                        <p>dos veces a la semana nuestro proveedor nos trae los mejores productos,
+                            asi mantenemos todos los ingredientes frescos</p>
+
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <img src="img/galery8.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <img src="img/galery9.jpg" alt="" class="gallery__img">
+                    </div>
+                    <div class="gallery__item" data-aos="fade-down-right">
+                        <p>visitanos en nuestro local para disfrutar de los mejores platillos</p>
+
+                        <p>ofrecemos un entregas adomiciolio totalmente gratis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section section__height" id="followus">
+            <span class="span">
+                <h2 class="section__tittle">Siguenos</h2>
+
+            </span>
+        </section>
+    </main>
+
+
+    <div class="container__loader">
+        <img src="img/loader.gif" alt="">
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</html>
